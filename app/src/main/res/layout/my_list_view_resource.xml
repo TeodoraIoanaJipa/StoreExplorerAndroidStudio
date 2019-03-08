@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/StoreTextView"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/imageViewStore"
+        android:text="StoreName"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/TextViewDescription"
+        android:layout_width="93dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/StoreTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-3dp"
+        android:layout_toEndOf="@+id/StoreTextView"
+        android:text="Description" />
+
+    <ImageView
+        android:id="@+id/imageViewStore"
+        android:layout_width="84dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:contentDescription="TODO" />
+</RelativeLayout>

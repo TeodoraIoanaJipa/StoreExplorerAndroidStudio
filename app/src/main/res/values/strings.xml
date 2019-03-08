@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TCM App</string>
+    <string name="password">Password</string>
+    <string name="register_here">Register Here</string>
+    <string-array name="stores">
+        <item>Auchan</item>
+        <item>Carrefour</item>
+        <item>Cora</item>
+        <item>Kaufland</item>
+        <item>Lidl</item>
+        <item>Mega Image</item>
+        <item>Mercadona</item>
+        <item>Metro</item>
+        <item>Profi</item>
+        <item>Selgros</item>
+    </string-array>
+    <string-array name="timecommand">
+        <item>35 minutes</item>
+        <item>35 minutes</item>
+        <item>45 minutes</item>
+        <item>120 minutes</item>
+        <item>45 minutes</item>
+        <item>45 minutes</item>
+        <item>tomorrow 8 a.m.</item>
+        <item>100minutes</item>
+        <item>49 minutes</item>
+        <item>35 minutes</item>
+    </string-array>
+    <string-array name="prices">
+
+    </string-array>
+</resources>
